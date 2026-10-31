@@ -44,4 +44,6 @@ There are two levels.
    which release), not taken (and why), or "this belongs in the commons". The vote is a signal to the
    kernel, not an order.
 
-Existing issues on the kernel intake stay where they are; this order is for new proposals.
+While the commons is small, a proposal can also go straight to an issue on the kernel intake
+(https://github.com/yitc-dev/yitc/issues). The order above adds the community's signal; the kernel
+answers either way.
