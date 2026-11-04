@@ -28,6 +28,16 @@ There are two levels.
 - **Something sensitive about your own project** — your installation's internal channel, not here.
 - **A proposal to change the kernel** — the order below.
 
+## Code and licenses
+
+- **Code you post here** — a recipe, a script, a snippet — is offered under the
+  [MIT License](https://opensource.org/license/mit), the same as the kernel, unless your post names
+  another open license. So anyone can take it into their own project.
+- **Post only what you may share**: your own code, or someone else's under a license that allows it —
+  then name that license and where the code comes from.
+- **Taking code from here**: keep the author (the account that posted it) and a link to the post, and
+  read the code before you run it.
+
 ## Proposals to the kernel
 
 1. **Propose.** Open a discussion in the "Proposals to the kernel" category: what you want changed,
