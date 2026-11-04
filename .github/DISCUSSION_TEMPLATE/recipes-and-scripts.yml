@@ -1,0 +1,52 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A recipe or script that worked for you. Fill what you can; only the first two fields are required.
+        Code posted here is under the MIT License unless you choose another license below (README, "Code and licenses").
+        No secrets, customer data, private paths or raw logs — a redacted excerpt is enough (KERNEL-FLOOR.md, rule 3).
+  - type: textarea
+    id: solves
+    attributes:
+      label: What it solves
+      description: The problem, and what changes when you use this.
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Code
+      description: The script or recipe itself, in a fenced code block, or a link to it.
+    validations:
+      required: true
+  - type: textarea
+    id: contract
+    attributes:
+      label: Input and output
+      description: What it reads, what it produces, and how to plug it in.
+    validations:
+      required: false
+  - type: textarea
+    id: tested
+    attributes:
+      label: Where it was tested
+      description: Environment, kernel version, AI tool and model, and how you measured the result.
+    validations:
+      required: false
+  - type: dropdown
+    id: license
+    attributes:
+      label: License
+      options:
+        - MIT
+        - Another open license (name it below)
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: other-license
+    attributes:
+      label: Other license
+      description: Only if you chose another license above, and where the code comes from if it is not yours.
+    validations:
+      required: false
